@@ -5,6 +5,9 @@ I'm an eighth grader working on all sorts of miscellaneous awesome software.
 Here is a list of (most of the) projects I made in the last few months.
 
 - Nov 23, 2020
+    - [Pewdiepie VS Cocomelon](https://pewdiepie-vs-cocomelon.herokuapp.com/): A website that shows you subscriber and view count comparison of the third and second most subscribed-to channels on youtube
+    
+- Nov 23, 2020
     - [Covid Tracking Project Library](https://github.com/gadhagod/covid-tracking-project): A python wrapper for the Covid Tracking Project API
 
 - Nov 19, 2020
@@ -12,10 +15,10 @@ Here is a list of (most of the) projects I made in the last few months.
 Have a virtual assistant speak local weather and world news on demand!
 
 - Nov 18, 2020
-    - [bbc feeds](https://github.com/gadhagod/bbc-feeds): A python package to get news, weather, and sports from BBC.
+    - [bbc feeds](https://github.com/gadhagod/bbc-feeds): A python package to get news, weather, and sports from BBC
 
 - Nov 17, 2020
-    - [GitHub Grasp](https://github.com/gadhagod/GitHub-Grasp): Get single files from any public GitHub repository onto your computer.
+    - [GitHub Grasp](https://github.com/gadhagod/GitHub-Grasp): Get single files from any public GitHub repository onto your computer
 
 - Nov 13, 2020
     - [Discord Bot Database Integration](https://medium.com/@gadhagod/discord-database-integration-93e937b71c83): Log Discord bot info into a database
