@@ -6,6 +6,7 @@ Here is a list of (most of the) projects I made in the last few months.
 
 - Nov 23, 2020
     - [Pewdiepie VS Cocomelon](https://pewdiepie-vs-cocomelon.herokuapp.com/): A website that shows you subscriber and view count comparison of the third and second most subscribed-to channels on youtube
+    - [Qool Quotes](https://github.com/gadhagod/Qool-Quotes): A discord bot that gives you cool quotes about life
     
 - Nov 23, 2020
     - [Covid Tracking Project Library](https://github.com/gadhagod/covid-tracking-project): A python wrapper for the Covid Tracking Project API
