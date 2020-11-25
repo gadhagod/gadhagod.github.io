@@ -4,7 +4,10 @@ I'm an eighth grader working on all sorts of miscellaneous awesome software.
 ### Projects
 Here is a list of (most of the) projects I made in the last few months.
 
-- Nov 23, 2020
+- Nov 25, 2020
+    - [Coronavirus Stats Website](https://usacovid19.herokuapp.com/): A website that shows you USA's and specific states' coronavirus information and stats
+
+- Nov 24, 2020
     - [Pewdiepie VS Cocomelon](https://pewdiepie-vs-cocomelon.herokuapp.com/): A website that shows you subscriber and view count comparison of the third and second most subscribed-to channels on youtube
     - [Qool Quotes](https://github.com/gadhagod/Qool-Quotes): A discord bot that gives you cool quotes about life
     
