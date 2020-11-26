@@ -3,7 +3,8 @@ I'm an eighth grader working on all sorts of miscellaneous awesome software.
 
 ### Projects
 Here is a list of (most of the) projects I made in the last few months.
-
+- Nov 26, 2020
+    - [Donald Trump](https://github.com/gadhagod/Donald-Trump): Get quotes from Donald Trump to your discord server
 - Nov 25, 2020
     - [Coronavirus Stats Website](https://usacovid19.herokuapp.com/): A website that shows you USA's and specific states' coronavirus information and stats
 
