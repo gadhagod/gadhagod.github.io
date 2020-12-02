@@ -5,6 +5,7 @@ I'm an eighth grader working on all sorts of miscellaneous awesome software.
 Here is a list of (most of the) projects I made in the last few months.
 - Dec 1, 2020
     - [GitHub Stats Lookup](https://github.com/gadhagod/GitHub-Stats-Lookup): Get anyone's GitHub stats with this website
+    - [BabyAPI](https://github.com/gadhagod/BabyAPI): Translate english to baby from any programming language
     
 - Nov 26, 2020
     - [Donald Trump](https://github.com/gadhagod/Donald-Trump): Get quotes from Donald Trump to your discord server
