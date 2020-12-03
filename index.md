@@ -3,6 +3,10 @@ I'm an eighth grader working on all sorts of miscellaneous awesome software.
 
 ### Projects
 Here is a list of (most of the) projects I made in the last few months.
+
+- Dec 2, 2020
+    - [Bebe-Bot](https://github.com/gadhagod/Bebe-Bot): A super small discord bot that converts English to Baby
+    
 - Dec 1, 2020
     - [GitHub Stats Lookup](https://github.com/gadhagod/GitHub-Stats-Lookup): Get anyone's GitHub stats with this website
     - [BabyAPI](https://github.com/gadhagod/BabyAPI): Translate english to baby from any programming language
