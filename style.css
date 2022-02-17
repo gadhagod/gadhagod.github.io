@@ -28,6 +28,7 @@ div.org-card {
     margin-right: auto;
     height: 37% !important;
     width: 40% !important;
+    object-fit: cover;
 }
 
 [src="img/projects/bell-sched-ext.png"] {
