@@ -28,8 +28,6 @@ jobs:
     - name: Build website
       run: node build.js
 
-    - name: Copy built files to dist
-
     - name: Commit dist files
       run: |
         cd build
