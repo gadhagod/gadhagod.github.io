@@ -16,6 +16,9 @@ jobs:
     - name: Remove .git
       run: rm -rf .git
 
+    - name: Clone dist branch
+      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist dist
+
     - name: Install dependencies
       run: npm i
 
