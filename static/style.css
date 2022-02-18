@@ -14,22 +14,22 @@ div.org-card {
     text-decoration: none;
 }
 
-[src="img/projects/botw-compendium.png"] {
+.botw-compendium-img {
     height: 9vw;
     object-fit: cover;
 }
 
-[src="img/projects/schoology-ext.png"] {
+.schoology-ext-img {
     object-fit: cover;
     height: 8vw;
 }
 
-[src="https://docs.google.com/drawings/d/e/2PACX-1vQWTKlLDPEjMIYU3GIVAkB5TUCZIka0wgMBggqu9UHfJQMKQt07Ult2jv1gsR32c2OEoy_FhHLGdE6m/pub?w=960&h=720"] {
+.bell-sched-ext-img {
     height: 9vw;
     object-fit: cover;
 }
 
-[src="img/orgs/robotics/logo.png"] {
+.robotics-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -37,7 +37,7 @@ div.org-card {
     width: 25% !important;
 }
 
-[src="img/orgs/adl/logo.png"] {
+.adl-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@ div.org-card {
     width: 18% !important;
 }
 
-[src="img/orgs/harker-hackers/logo.png"] {
+.harker-hackers-img {
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <%- include("../partials/head.html") %>
+  <body>
+    <%- include("../partials/navbar.html") %>
+    <section class="main-content">
+      <p>Here is a list of (most of the) small side projects I've in the last few years in chronological order.</p>
+
+      <ul>
+        <% for( let i = 0; i < Object.keys(activity).length; i++ ) { %>
+          <li>
+            <%= Object.keys(activity)[i] %>
+            <ul>
+              <% for( project of activity[Object.keys(activity)[i]] ) { %>
+                <li>
+                  <a href="<%= project.link %>" target="_blank">
+                    <%= project.title %>:
+                  </a>
+                  <%= project.description %>
+                </li>
+              <% } %>
+            </ul>
+          </li>
+        <% } %>
+      </ul>
+    </section>  
+  </body>
+</html>

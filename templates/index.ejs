@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <%- include("../partials/head.html") %>
+  <body>
+    <%- include("../partials/navbar.html") %>
+    <section class="main-content">
+      <h1>Hey, I’m Aarav.</h1>
+      <p>I am a high school freshman at the <a href="https://harker.org" target="_blank">Harker School</a> working on all sorts of miscellaneous awesome software. </p>
+      <h2>Projects</h2>
+      <p>Some of the main projects I've worked on over the past year.</p>
+    </section>
+    <div class= "row justify-content-center">
+      <% for (project of projects) { %>
+        <div class="card project-card text-center">
+          <img class="card-img-top <%= project.image.class %>" src="img/projects/<%= project.image.path %> ">
+          <div class="card-body">
+            <h5 class="card-title"><%= project.title %></h5>
+            <p class="card-text">
+              <%- project.description %>
+            </p>
+            <% for (link of project.links) { %> 
+              <div class="card-footer text-center">
+                <a href="<%= link.url %>" target="_blank"><%= link.name %></a>
+              </div>
+            <% } %>
+          </div>
+        </div>
+        &nbsp;&nbsp;
+      <% } %>
+    </div>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>

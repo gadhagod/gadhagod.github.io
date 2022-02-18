@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <%- include("../partials/head.html") %>
+  <body>
+    <%- include("../partials/navbar.html") %>
+    <section class="main-content">
+      <h1 align="center">Volunteer Organizations</h1>
+      <br>
+      <% for (org of orgs) { %>
+        <div class="card org-card">
+          <a href="<%= org.url %>" target="_blank">
+            <img class="card-img-top <%= org.image.class %>" src="img/orgs/<%= org.image.path %>">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title" align="center">
+              <a href="<%= org.url %>" target="_blank"><%= org.title %></a>
+            </h4>
+            <%- include(`../partials/org-descriptions/${org.description_partial}`) %>
+          </div>
+        </div>
+        <br>
+      <% } %>
+    </section>
+    <br>
+    <br>
+    <br>
+  </body>
+</html>

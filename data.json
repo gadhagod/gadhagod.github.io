@@ -1,0 +1,517 @@
+{
+    "projects": [
+        {
+            "title": "Hyrule Compendium API",
+            "image": {
+                "path": "botw-compendium.png",
+                "class": "botw-compendium-img"
+            },
+            "description": "An API serving data on all in-game items from the videogame <i>The Legend of Zelda: Breath of the Wild</i>",
+            "links": [
+                {
+                    "name": "Documentation",
+                    "url": "https://gadhagod.github.io/Hyrule-Compendium-API"
+                },
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/gadhagod/Hyrule-Compendium-API"
+                }
+            ]
+        },
+        {
+            "title": "Harker Schoology Enhancer",
+            "image": {
+                "path": "schoology-ext.png",
+                "class": "schoology-ext-img"
+            },
+            "description": "A Chrome extension that adds awesome features to Schoology, for Harker middle school students",
+            "links": [
+                {
+                    "name": "Website",
+                    "url": "https://harker-hackers.github.io/schoology-extension"
+                },
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/Harker-Hackers/schoology-extension"
+                }
+            ]
+        },
+        {
+            "title": "Bell Schedule Extension",
+            "image": {
+                "path": "bell-sched-ext.png",
+                "class": "bell-sched-ext-img"
+            },
+            "description": "A chrome extension that shows Harker students their daily schedules",
+            "links": [
+                {
+                    "name": "Manual",
+                    "url": "https://gadhagod.github.io/bell-schedule-extension"
+                },
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/gadhagod/bell-schedule-extension"
+                }
+            ]
+        }
+    ],
+    "orgs": [
+        {
+            "title": "Harker Robotics",
+            "image": {
+                "path": "robo/logo.png",
+                "class": "robotics-img"
+            },
+            "url": "https://robotics.harker.org",
+            "description_partial": "robo.html"
+        },
+        {
+            "title": "App Dev League",
+            "image": {
+                "path": "adl/logo.png",
+                "class": "adl-img"
+            },
+            "url": "https://appdevleague.org",
+            "description_partial": "adl.html"
+        },
+        {
+            "title": "Harker Hackers",
+            "image": {
+                "path": "harker-hackers/logo.png",
+                "class": "harker-hackers-img"
+            },
+            "url": "https://harker-hackers.github.io",
+            "description_partial": "harker-hackers.html"
+        }
+    ],
+    "activity": {
+        "Jan 31, 2022": [
+            {
+                "title": "Cricket Rankings Twitter Bot",
+                "link": "https://twitter.com/CricketRankings",
+                "description": "Twitter bot that posts ICC cricket rankings updates."
+            }
+        ],
+        "Jan 24, 2022": [
+            {
+                "title": "Cricket Rankings API",
+                "link": "https://github.com/gadhagod/Cricket-Rankings-API",
+                "description": "REST API that serves live data on official ICC cricket rankings."
+            }
+        ],
+        "Oct 7, 2021": [
+            {
+                "title": "Position Velocity Graphs",
+                "link": "https://github.com/gadhagod/position-velocity-graphs",
+                "description": "A website that converts position vs time graphs to velocity vs time graphs."
+            }
+        ],
+        "Sep 19, 2021": [
+            {
+                "title": "VSCode Chrome Extension Developer Tools",
+                "link": "https://marketplace.visualstudio.com/items?itemName=aaravb.chrome-extension-developer-tools",
+                "description": "VSCode support for Chrome extension development."
+            },
+            {
+                "title": "Bell Schedule Extension",
+                "link": "https://github.com/gadhagod/bell-schedule-extension",
+                "description": "A tiny chrome extension that shows you the day's schedule for Harker Upper School students."
+            }
+        ],
+        "Jul 2, 2021": [
+            {
+                "title": "Donald Tabs",
+                "link": "https://github.com/gadhagod/Donald-Tabs",
+                "description": "A tiny chrome extension that opens a dumb Donald Trump quote new tabs."
+            }
+        ],
+        "May 29, 2021": [
+            {
+                "title": "Harker Utilities Bot",
+                "link": "https://github.com/gadhagod/Harker-Utilities-Bot",
+                "description": "A discord bot that shows today's school lunch and schedule."
+            }
+        ],
+        "May 9, 2021": [
+            {
+                "title": "Flask Geomapper",
+                "link": "https://github.com/gadhagod/flask-geomapper",
+                "description": "Visualize Flask request locations cartographically."
+            }
+        ],
+        "Mar 23, 2021": [
+            {
+                "title": "sprintscript",
+                "link": "https://gadhagod.github.io/sprintscript/#/",
+                "description": "A command line utility that simplifies repetitive commands for any kind of scripting."
+            }
+        ],
+        "Mar 20, 2021": [
+            {
+                "title": "Zoom Freeze",
+                "link": "https://gadhagod.github.io/Zoom-Freeze/",
+                "description": "A super simple to use tool that freezes your video stream on other’s Zoom."
+            }
+        ],
+        "Feb 12, 2021": [
+            {
+                "title": "Automail",
+                "link": "https://github.com/gadhagod/automail",
+                "description": "A badly written python bot that programmatically sends email replies to senders based of the contents of the email. Built for students responding to teachers."
+            }
+        ],
+        "Feb 6, 2021": [
+            {
+                "title": "Schoology-Google Calendar Integration",
+                "link": "https://github.com/Harker-Hackers/schoology-gcalendar-backup",
+                "description": "Add assignments from a class to google calendar in a single command."
+            }
+        ],
+        "Jan 31, 2021": [
+            {
+                "title": "Harker Calendar Notifications",
+                "link": "https://github.com/gadhagod/harker-calendar-notifications",
+                "description": "Be notified in your email of upcoming assignments from Schoology."
+            }
+        ],
+        "Jan 30, 2021": [
+            {
+                "title": "watrudoing",
+                "link": "https://github.com/gadhagod/watrudoing",
+                "description": "A shell that makes fun of you when you mess up on the command line."
+            }
+        ],
+        "Jan 26, 2021": [
+            {
+                "title": "Youtube Creator's CLI",
+                "link": "https://github.com/gadhagod/Youtube-Creator-CLI",
+                "description": "A CLI for Youtube creators, where you can upload, edit, view, and delete videos."
+            }
+        ],
+        "Jan 19, 2021": [
+            {
+                "title": "Rockset Workflow",
+                "link": "https://github.com/gadhagod/rockset-workflow",
+                "description": "Upload documents to your Rockset collections on repository pushes."
+            }
+        ],
+        "Jan 18, 2021": [
+            {
+                "title": "Brawlstats",
+                "link": "https://github.com/gadhagod/brawlstats",
+                "description": "A super basic wraper for the Brawl Stars API."
+            }
+        ],
+        "Jan 13, 2021": [
+            {
+                "title": "Brawlstats Monitor",
+                "link": "https://github.com/gadhagod/Brawlstats-Monitor",
+                "description": "A small gadget that displays your Brawl Stars stats on an OLED display."
+            }
+        ],
+        "Jan 3, 2021": [
+            {
+                "title": "Hyrule Compendium API",
+                "link": "https://gadhagod.github.io/Hyrule-Compendium-API",
+                "description": "An API serving data on all creatures, monsters, materials, equipment, and treasure in <i>The Legend of Zelda: Breath of the Wild"
+            }
+        ],
+        "Dec 26, 2020": [
+            {
+                "title": "Jokey",
+                "link": "https://gadhagod.github.io/Jokey",
+                "description": "A discord bot that spits bad jokes"
+            }
+        ],
+        "Dec 14, 2020": [
+            {
+                "title": "Gitignore Super CLI",
+                "link": "https://github.com/gadhagod/gitignore-super-cli",
+                "description": "Create gitignore templates from your command line."
+            }
+        ],
+        "Dec 7, 2020": [
+            {
+                "title": "Rockset Ruby Client",
+                "link": "https://github.com/gadhagod/Rockset-Ruby-Client",
+                "description": "A Ruby client library for Rockset"
+            }
+        ],
+        "Dec 5, 2020": [
+            {
+                "title": "Heroku Status Badges",
+                "link": "https://github.com/gadhagod/Heroku-Status-Badges",
+                "description": "Display your Heroku app's status on your README or other documents"
+            }
+        ],
+        "Dec 2, 2020": [
+            {
+                "title": "Bebe Bot",
+                "link": "https://github.com/gadhagod/Bebe-Bot",
+                "description": "A super small discord bot that converts English to Baby"
+            }
+        ],
+        "Dec 1, 2020": [
+            {
+                "title": "GitHub Stats Lookup",
+                "link": "https://github.com/gadhagod/GitHub-Stats-Lookup",
+                "description": "Get anyone’s GitHub stats with this website just cuz"
+            },
+            {
+                "title": "Baby API",
+                "link": "Translate english to baby",
+                "description": "https://github.com/gadhagod/BabyAPI"
+            }
+        ],
+        "Nov 26, 2020": [
+            {
+                "title": "Donald Trump",
+                "link": "https://github.com/gadhagod/Donald-Trump",
+                "description": "Get quotes from Donald Trump to your discord server"
+            }
+        ],
+        "Nov 25, 2020": [
+            {
+                "title": "Coronavirus Stats Website",
+                "link": "https://usacovid19.herokuapp.com",
+                "description": "A website that shows you USA’s and specific states’ coronavirus information and stats"
+            }
+        ],
+        "Nov 24, 2020": [
+            {
+                "title": "Pewdiepie VS Cocomelon",
+                "link": "https://pewdiepie-vs-cocomelon.herokuapp.com",
+                "description": "A website that shows you subscriber and view count comparison of the third and second most subscribed-to channels on youtube"
+            },
+            {
+                "title": "Qool Quotes",
+                "link": "https://github.com/gadhagod/Qool-Quotes",
+                "description": "A discord bot that gives you deep quotes about life and stuff"
+            }
+        ],
+        "Nov 23, 2020": [
+            {
+                "title": "Covid Tracking Project Library",
+                "link": "https://github.com/gadhagod/covid-tracking-project",
+                "description": "A python wrapper for the Covid Tracking Project API"
+            }
+        ],
+        "Nov 19, 2020": [
+            {
+                "title": "Morning Assistant",
+                "link": "https://github.com/gadhagod/morning-assistant",
+                "description": "Have a virtual assistant speak local weather and world news on demand"
+            }
+        ],
+        "Nov 18, 2020": [
+            {
+                "title": "BBC Feeds",
+                "link": "https://github.com/gadhagod/bbc-feeds",
+                "description": "A python package to get news, weather, and sports from BBC"
+            }
+        ],
+        "Nov 17, 2020": [
+            {
+                "title": "GitHub Grasp",
+                "link": "https://github.com/gadhagod/GitHub-Grasp",
+                "description": "Get single files from any public GitHub repository onto your computer"
+            }
+        ],
+        "Nov 13, 2020": [
+            {
+                "title": "Gify Discord Bot",
+                "link": "https://github.com/gadhagod/gify",
+                "description": "The coolest discord bot for getting epic and random GIFs"
+            }
+        ],
+        "Nov 10, 2020": [
+            {
+                "title": "Mega Pip",
+                "link": "https://github.com/gadhagod/mega-pip",
+                "description": "Python packaging and distribution made easy"
+            }
+        ],
+        "Nov 9, 2020": [
+            {
+                "title": "Upcoming Assignments",
+                "link": "https://github.com/gadhagod/upcoming-assignments",
+                "description": "A Flask app that shows you your upcoming assignments from Schoology"
+            }
+        ],
+        "Nov 8, 2020": [
+            {
+                "title": "Schoology CLI",
+                "link": "https://gadhagod.github.io/schoology",
+                "description": "The Ultimate Schoology CLI!"
+            }
+        ],
+        "Nov 3, 2020": [
+            {
+                "title": "HMS Updates",
+                "link": "https://github.com/gadhagod/Harker-Updates",
+                "description": "A service that allows Harker Middle School students to see campus-wide information and be notified of new updates."
+            }
+        ],
+        "Nov 1, 2020": [
+            {
+                "title": "Computer Coffee",
+                "link": "https://github.com/gadhagod/Computer-Coffee",
+                "description": "Keep your computer awake for however long you want"
+            }
+        ],
+        "Oct 28, 2020": [
+            {
+                "title": "Youtube Stats",
+                "link": "https://github.com/gadhagod/Youtube-Stats-Website",
+                "description": "A website to get you youtube channel stats in seconds."
+            }
+        ],
+        "Oct 26, 2020": [
+            {
+                "title": "News Archives",
+                "link": "https://github.com/gadhagod/News-Archives",
+                "description": "A public API that logs news daily."
+            }
+        ],
+        "Oct 22, 2020": [
+            {
+                "title": "EZDist",
+                "link": "https://github.com/gadhagod/EZDist",
+                "description": "An Arduino library to make usage of the HC-SR04 as easy as blinking an LED"
+            }
+        ],
+        "Oct 15, 2020": [
+            {
+                "title": "WorldPops Python Library",
+                "link": "https://github.com/gadhagod/worldpops",
+                "description": "python wrapper for the WorldPops API"
+            }
+        ],
+        "Oct 12, 2020": [
+            {
+                "title": "WorldPops API",
+                "link": "https://worldpops.herokuapp.com",
+                "description": "Get population, growth, density, and rank of any nation"
+            }
+        ],
+        "Oct 9, 2020": [
+            {
+                "title": "BBCHeadlines",
+                "link": "https://github.com/gadhagod/BBCHeadlines",
+                "description": "A python package to get news from BBC"
+            }
+        ],
+        "Oct 8, 2020": [
+            {
+                "title": "LOLXD",
+                "link": "https://github.com/gadhagod/LOLXD",
+                "description": "Jokes on your command line!"
+            }
+        ],
+        "Sep 26, 2020": [
+            {
+                "title": "Google API Fun",
+                "link": "https://github.com/gadhagod/GoogleAPI-Fun",
+                "description": "Some samples using the Google API to do epic stuff"
+            }
+        ],
+        "Sep 25, 2020": [
+            {
+                "title": "This Video Has __ Views",
+                "link": "https://www.youtube.com/watch?v=clY8cSZbH5s",
+                "description": "Using python to make cool videos"
+            }
+        ],
+        "Sep 15, 2020": [
+            {
+                "title": "Terminal To Do",
+                "link": "https://github.com/gadhagod/TerminalToDo",
+                "description": "Stay organized in your command line"
+            }
+        ],
+        "Aug 26, 2020": [
+            {
+                "title": "Arduino Video Game Controller",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/arduino-video-game-controller-for-any-computer-e4aa16",
+                "description": "Control any video game with this usb controller!"
+            }
+        ],
+        "August 10, 2020": [
+            {
+                "title": "Live Coronavirus Updater Display",
+                "link": "https://www.hackster.io/gadhagod/live-coronavirus-stats-display-e07e89",
+                "description": "An oled displaying how many cases, deaths, and recoveries for the coronavirus globally"
+            }
+        ],
+        "August 2, 2020": [
+            {
+                "title": "Electronic Nerf Turret",
+                "link": "https://www.hackster.io/gadhagod/electronic-nerf-turret-bf5a21",
+                "description": "A fully functinal Nerf Turret that you can make with parts from your home."
+            }
+        ],
+        "July 18, 2020": [
+            {
+                "title": "Automatic Plant Watering System",
+                "link": "https://www.hackster.io/gadhagod/fully-automatic-plant-watering-system-de962d",
+                "description": "Let electronics take care of your plants!"
+            }
+        ],
+        "July 7, 2020": [
+            {
+                "title": "Electronic Centipede Pranker",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/arduino-centipede-dropping-prank-5965a8",
+                "description": "Scare infiltrators of your room"
+            }
+        ],
+        "July 3, 2020": [
+            {
+                "title": "Live Security & Surveillance Camera",
+                "link": "https://www.hackster.io/gadhagod/raspberry-pi-live-security-surveillance-camera-e5d95a",
+                "description": "Get a live feed of what is happening in your house"
+            }
+        ],
+        "June 10, 2020": [
+            {
+                "title": "Electronic Bike Bell",
+                "link": "https://www.hackster.io/gadhagod/1-bike-bell-64d7da",
+                "description": "A homemade bike bell that costs a dollar"
+            }
+        ],
+        "May 29, 2020": [
+            {
+                "title": "Fart-o-Meter",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/who-passed-the-gas-08d802",
+                "description": "Sniff out the true tooter with methane sensors"
+            }
+        ],
+        "May 22, 2020": [
+            {
+                "title": "Clap-Controlled Lights",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/clap-controlled-lights-that-you-can-actually-use-96a85c",
+                "description": "Control your lights from far away through sound."
+            }
+        ],
+        "May 15, 2020": [
+            {
+                "title": "Touchless Doorbell",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/touchless-doorbell-d7b5de",
+                "description": "Stop the spread of the coronavirus in a simple contactless way."
+            }
+        ],
+        "April 10, 2020": [
+            {
+                "title": "Arduino Thermometer",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/thermometer-2958ff",
+                "description": "A  simple Arduino thermometer"
+            }
+        ],
+        "April 5, 2020": [
+            {
+                "title": "Hand Wash Timer",
+                "link": "https://create.arduino.cc/projecthub/GadhaGod/simple-hand-wash-timer-60d7cd",
+                "description": "A device that makes sure you wash your hands for thirty seconds!"
+            }
+        ]
+    }
+}

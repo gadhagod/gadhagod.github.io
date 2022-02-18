@@ -1,0 +1,21 @@
+{
+  "name": "gadhagod.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "build.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gadhagod/gadhagod.github.io.git"
+  },
+  "author": "Aarav Borthakur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gadhagod/gadhagod.github.io/issues"
+  },
+  "homepage": "https://github.com/gadhagod/gadhagod.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "fs-extra": "^10.0.0"
+  }
+}
