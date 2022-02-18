@@ -17,13 +17,18 @@ jobs:
       run: rm -rf .git
 
     - name: Clone dist branch
-      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist dist
+      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist build
+
+    - name: Clear dist directory
+      run: rm -rf build/*
 
     - name: Install dependencies
       run: npm i
 
     - name: Build website
       run: node build.js
+
+    - name: Copy built files to dist
 
     - name: Commit dist files
       run: |
@@ -32,7 +37,7 @@ jobs:
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        git commit -m "${{ github.event.head_commit.message }}" -m "Deploy" --amend --author="${{ github.event.pusher.name }} <${{ github.event.head_commit.author.email }}>" --allow-empty --allow-empty-message
+        git commit -m "${{ github.event.head_commit.message }}" -m "Deploy" --author="${{ github.event.pusher.name }} <${{ github.event.head_commit.author.email }}>" --allow-empty --allow-empty-message
 
     - name: Push to dist branch
       uses: ad-m/github-push-action@master
