@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "My personal website",
   "main": "build.js",
-  "scripts": {},
+  "scripts": {
+    "build": "node build",
+    "watch": "node build -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gadhagod/gadhagod.github.io.git"
@@ -14,7 +17,8 @@
     "url": "https://github.com/gadhagod/gadhagod.github.io/issues"
   },
   "homepage": "https://github.com/gadhagod/gadhagod.github.io#readme",
-  "dependencies": {
+  "devDependencies": {
+    "chokidar": "^3.5.3",
     "ejs": "^3.1.6",
     "fs-extra": "^10.0.0"
   }
