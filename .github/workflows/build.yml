@@ -16,17 +16,18 @@ jobs:
     - name: Remove .git
       run: rm -rf .git
 
-    - name: Clone dist branch
-      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist build
-
-    - name: Clear dist directory
-      run: rm -rf build/*
 
     - name: Install dependencies
       run: npm i
 
     - name: Build website
       run: node build.js
+
+    - name: Clone dist branch
+      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist dist
+
+    - name: Move .git from dist to build
+      run: mv dist/.git build/.git
 
     - name: Commit dist files
       run: |
