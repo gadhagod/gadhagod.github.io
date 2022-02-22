@@ -1,3 +1,7 @@
+section.page-header * {
+    font-size: large;
+}
+
 div.project-card {
     width: 18rem;
 }
