@@ -63,7 +63,7 @@
                 "class": "robotics-img"
             },
             "url": "https://robotics.harker.org",
-            "description_partial": "robo.html"
+            "description_partial": "robo.ejs"
         },
         {
             "title": "App Dev League",
@@ -72,7 +72,7 @@
                 "class": "adl-img"
             },
             "url": "https://appdevleague.org",
-            "description_partial": "adl.html"
+            "description_partial": "adl.ejs"
         },
         {
             "title": "Harker Hackers",
@@ -81,7 +81,7 @@
                 "class": "harker-hackers-img"
             },
             "url": "https://harker-hackers.github.io",
-            "description_partial": "harker-hackers.html"
+            "description_partial": "harker-hackers.ejs"
         }
     ],
     "activity": {

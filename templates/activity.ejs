@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <%- include("../partials/head.html") %>
+  <%- include("../partials/head.ejs", { title: "Activity" }) %>
   <body>
-    <%- include("../partials/navbar.html") %>
+    <%- include("../partials/navbar.ejs") %>
     <section class="main-content">
       <p>Here is a list of (most of the) small side projects I've in the last few years in chronological order.</p>
 
@@ -24,5 +24,6 @@
         <% } %>
       </ul>
     </section>  
+    <%- include("../partials/footer.ejs") %>
   </body>
 </html>
