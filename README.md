@@ -4,8 +4,8 @@ My personal website, served at [gadhagod.github.io](https://gadhagod.github.io).
 To change the items shown in the projects, organizations, or activity pages, modify the respective key in [data.json](data.json). 
 
 ## Previewing the site
-1. `node build` to build the HTML pages (with `-w` flag to watch files for changes). The built files are placed into the `build` directory.
-2. `open build/index.html` to open the preview in browser.
+1. `npm install` to install dependencies.
+2. Run `node build -o` to build the HTML pages and open the preview.
 
 ## [data.json](data.json) schema
 
@@ -55,14 +55,21 @@ To change the items shown in the projects, organizations, or activity pages, mod
 }
 ```
 
-## Developing
-### Static files
+## Development
+### Development Mode
+Run the website on development mode with the `-d` or `--dev` flag. Development mode watches templates, partials, and static files for changes and enables hot reloads. Do not use development mode in production!
+
+### Open preview
+The `-o` and `--open` flags opens the website preview after the first build.
+
+### Components
+#### Static files
 The website's images, JavaScript, and CSS are defined in the [static](static) directory. 
 
-### Templates
+#### Templates
 [data.json](data.json) is rendered into the [EJS](https://ejs.co) templates defined in the [templates](templates) directory. The HTML layouts for each individual page is defined in its EJS file. All references to static file paths are relative to the [static](static) directory.
 
-### Partials
+#### Partials
 Partials are inserted into EJS templates with the `include` function. All references to static file paths are relative to the [static](static) directory.
 
 ## Deployment
