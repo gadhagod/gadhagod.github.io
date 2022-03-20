@@ -85,6 +85,13 @@
         }
     ],
     "activity": {
+        "Mar 17, 2022": [
+            {
+                "title": "Physics Graph Builder",
+                "link": "https://gadhagod.github.io/physics-graph-builder",
+                "description": "A website that generates velocity, acceleration, net force, momentum, and kinetic energy graphs."
+            }
+        ],
         "Jan 31, 2022": [
             {
                 "title": "Cricket Rankings Twitter Bot",
