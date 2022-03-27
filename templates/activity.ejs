@@ -13,10 +13,7 @@
             <ul>
               <% for( project of activity[Object.keys(activity)[i]] ) { %>
                 <li>
-                  <a href="<%= project.link %>" target="_blank">
-                    <%= project.title %>:
-                  </a>
-                  <%= project.description %>
+                  <a href="<%= project.link %>" target="_blank"><%= project.title %></a>: <%= project.description %>
                 </li>
               <% } %>
             </ul>
