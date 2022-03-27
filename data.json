@@ -87,7 +87,7 @@
     "activity": {
         "Mar 24, 2022": [
             {
-                "title": "Riemann Sum Demonstration",
+                "title": "Riemann Sum",
                 "link": "https://github.com/gadhagod/Reimann-Sum",
                 "description": "Visually demonstrating the Riemann Sum with matplotlib."
             }
