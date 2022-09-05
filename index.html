@@ -1,67 +1,106 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css">
-<img id="settings" src="img/settings.png" length="20" width="20" align="left">
-<img id="settingsBackButton" src="img/back.png" class="startHidden" length="20" width="20" align="left">
-<img id="lunchBackButton" src="img/back.png" class="startHidden" length="20" width="20" align="left">
-<img id="newReleaseBackButton" src="img/back.png" length="20" width="20" align="left">
-<img id="newReleaseButton" src="img/new_release.png" class="startHidden" align="right" length="20" width="20">
-<center>
-    <img id="noWifiImage" src="img/wifi.png" class="startHidden" length="40" width="40">
-    <p id="noWifiText"></p>
-</center>
-
-<h2 id="header" align="center"></h2>
-<p id="newReleaseText"></p>
-<center>
-    <div id="loader"></div>
-    <table id="lunch"></table>
-    <table id="schedule"></table>
-    <div id="settingsForm" class="startHidden">
-        <label for="P1">P1:</label>
-        <input id="P1" type="text" size="17">
-        <button id="P1ResetButton"><small class="removeCustomPeriod">Reset</small></button>
+<html lang="en-US">
+  <head>
+  <meta charset="UTF-8">
+  <title>
     
-        <br>
-        <label for="P2">P2:</label>
-        <input id="P2" type="text" size="17">
-        <button id="P2ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br>
-        <label for="P3">P3:</label>
-        <input id="P3" type="text" size="17">
-        <button id="P3ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br>
-        <label for="P4">P4:</label>
-        <input id="P4" type="text" size="17">
-        <button id="P4ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br>
-        <label for="P5">P5:</label>
-        <input id="P5" type="text" size="17">
-        <button id="P5ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br>
-        <label for="P6">P6:</label>
-        <input id="P6" type="text" size="17">
-        <button id="P6ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br>
-        <label for="P7">P7:</label>
-        <input id="P7" type="text" size="17">
-        <button id="P7ResetButton"><small class="removeCustomPeriod">Reset</small></button>
-    
-        <br><br>
-        <button id="submitSettingsButton">Save</button>
+    Aarav Borthakur
+  </title>
+  <meta name="generator" content="Jekyll v3.9.0" />
+  <meta property="og:title" content="Hey, I’m Aarav." />
+  <meta property="og:locale" content="en_US" />
+  <link rel="canonical" href="https://gadhagod.github.io/" />
+  <meta property="og:url" content="https://gadhagod.github.io/" />
+  <meta property="og:site_name" content="gadhagod.github.io" />
+  <script type="application/ld+json">
+  {"@type":"WebSite","headline":"Hey, I’m Aarav.","url":"https://gadhagod.github.io/","name":"gadhagod.github.io","@context":"https://schema.org"}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="icon" href="img/icon.jpeg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jekyll.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+  <body>
+    <section class="page-header">
+  <a href="index.html" class="btn">Projects</a>
+  <a href="orgs.html" class="btn">Organizations</a>
+  <a href="activity.html" class="btn">Activity</a>
+  <a href="https://www.linkedin.com/in/aarav-borthakur-b66085209" class="btn" target="_blank">Linkedin &#x2197;</a>
+  <a href="https://github.com/gadhagod" class="btn" target="_blank">GitHub &#x2197;</a>
+</section>
+    <section class="main-content">
+      <h1>Hey, I’m Aarav.</h1>
+      <p>I am a high school freshman at the <a href="https://harker.org" target="_blank">Harker School</a> working on all sorts of miscellaneous awesome software. </p>
+      <h2>Projects</h2>
+      <p>Some of the personal projects I've worked on over the past year.</p>
+    </section>
+    <div class= "row justify-content-center">
+      
+        <div class="card project-card text-center">
+          <img class="card-img-top botw-compendium-img" src="img/projects/botw-compendium.png ">
+          <div class="card-body">
+            <h5 class="card-title">Hyrule Compendium API</h5>
+            <p class="card-text">
+              An API serving data on all in-game items from the videogame <i>The Legend of Zelda: Breath of the Wild</i>
+            </p>
+             
+              <div class="card-footer text-center">
+                <a href="https://gadhagod.github.io/Hyrule-Compendium-API" target="_blank">Documentation</a>
+              </div>
+             
+              <div class="card-footer text-center">
+                <a href="https://github.com/gadhagod/Hyrule-Compendium-API" target="_blank">GitHub</a>
+              </div>
+            
+          </div>
+        </div>
+        &nbsp;&nbsp;
+      
+        <div class="card project-card text-center">
+          <img class="card-img-top schoology-ext-img" src="img/projects/schoology-ext.png ">
+          <div class="card-body">
+            <h5 class="card-title">Harker Schoology Enhancer</h5>
+            <p class="card-text">
+              A Chrome extension that adds awesome features to Schoology, for Harker middle school students
+            </p>
+             
+              <div class="card-footer text-center">
+                <a href="https://harker-hackers.github.io/schoology-extension" target="_blank">Website</a>
+              </div>
+             
+              <div class="card-footer text-center">
+                <a href="https://github.com/Harker-Hackers/schoology-extension" target="_blank">GitHub</a>
+              </div>
+            
+          </div>
+        </div>
+        &nbsp;&nbsp;
+      
+        <div class="card project-card text-center">
+          <img class="card-img-top bell-sched-ext-img" src="img/projects/bell-sched-ext.png ">
+          <div class="card-body">
+            <h5 class="card-title">Bell Schedule Extension</h5>
+            <p class="card-text">
+              A chrome extension that shows Harker students their daily schedules
+            </p>
+             
+              <div class="card-footer text-center">
+                <a href="https://gadhagod.github.io/bell-schedule-extension" target="_blank">Manual</a>
+              </div>
+             
+              <div class="card-footer text-center">
+                <a href="https://github.com/gadhagod/bell-schedule-extension" target="_blank">GitHub</a>
+              </div>
+            
+          </div>
+        </div>
+        &nbsp;&nbsp;
+      
     </div>
-    <div id="footer" class="startHidden">
-        <hr>
-        <small>
-            By Aarav Borthakur <br>
-            &copy; <span id="copyrightYear"></span>
-        </small>
-    </div>
-</center>
-
-<script src="showdown.min.js"></script>
-<script src="index.js"></script>
+    <br>
+    <br>
+    <br>
+    <script src="js/index.js"></script>
+  </body>
+</html>

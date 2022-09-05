@@ -1,0 +1,58 @@
+section.page-header * {
+    font-size: large;
+}
+
+div.project-card {
+    width: 18rem;
+}
+
+div.org-card {
+    width: 900px;
+}
+
+.card-text, cite {
+    font-size: 14px;
+}
+
+.card-footer a, .card-title a {
+    text-decoration: none;
+}
+
+.botw-compendium-img {
+    height: 9vw;
+    object-fit: cover;
+}
+
+.schoology-ext-img {
+    object-fit: cover;
+    height: 8vw;
+}
+
+.bell-sched-ext-img {
+    height: 9vw;
+    object-fit: cover;
+}
+
+.robotics-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80% !important;
+    width: 25% !important;
+}
+
+.adl-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 18% !important;
+    width: 18% !important;
+}
+
+.harker-hackers-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20% !important;
+    width: 20% !important;
+}
