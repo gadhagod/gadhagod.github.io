@@ -24,7 +24,7 @@ jobs:
       run: node build.js
 
     - name: Clone dist branch
-      run: git clone https://github.com/gadhagod/bell-schedule-extension -b dist dist
+      run: git clone https://github.com/gadhagod/gadhagod.github.io -b dist dist
 
     - name: Move .git from dist to build
       run: mv dist/.git build/.git
